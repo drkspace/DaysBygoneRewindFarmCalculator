@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="scripts.js"></script>
+</head>
+
+
+  <body>
+    <form>
+        <label for="principal">Principal: </label>
+    <input type="number" id="principal" placeholder="Principal"></input><br><br>
+    
+    <label for="get">Elixir Per Rewind: </label>
+    <input type="number" id="get" placeholder="Elixir per Rewind"></input><br><br>
+    
+    <label for="rewindTime">Rewind Time (minutes): </label>
+    <input type="number" id="rewindTime" placeholder="Rewind Time (minutes)"></input><br><br>
+    </form>
+    <button onclick="allRun();">Run</button>
+    <ul>
+        <li id="selloff"></li>
+        <li id="afterselloff"></li>
+        <li id="rewindsLeft"></li>
+        <li id="timeLeft"></li>
+    </ul>
+
+    
+  </body>
+  </html>
